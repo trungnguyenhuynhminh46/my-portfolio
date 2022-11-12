@@ -8,7 +8,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 function App() {
   return (
-    <div>
+    <div className="">
       <NavBar></NavBar>
       <Home></Home>
       <SocialLinks></SocialLinks>

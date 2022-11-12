@@ -35,6 +35,24 @@ const Experience = () => {
     },
     {
       id: 6,
+      srcImg: techImages.github,
+      title: "Git",
+      shadowColor: "shadow-neutral-200",
+    },
+    {
+      id: 7,
+      srcImg: techImages.firebase,
+      title: "Firebase",
+      shadowColor: "shadow-amber-200",
+    },
+    {
+      id: 8,
+      srcImg: techImages.styled_components,
+      title: "Styled Component",
+      shadowColor: "shadow-pink-200",
+    },
+    {
+      id: 9,
       srcImg: techImages.laravel,
       title: "Laravel",
       shadowColor: "shadow-red-500",

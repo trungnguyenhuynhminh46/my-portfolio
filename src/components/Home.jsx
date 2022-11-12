@@ -1,5 +1,4 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -7,7 +6,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full p-4 bg-gradient-to-b from-black via-black to-gray-800 text-white"
+      className="pt-[200px] md:pt-0 h-screen w-full p-4 bg-gradient-to-b from-black via-black to-gray-800 text-white"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row">
         <div>
@@ -15,10 +14,10 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-            non repudiandae, possimus minima ad laborum consequatur nesciunt
-            consectetur nemo magni fugit ipsam dolorem facere quaerat voluptate
-            incidunt adipisci ratione, aliquid odit itaque vel iste quia.
+            Hi, I'm Trung - a data engineering student at university of
+            technology and education, I'm also a self-taught web developer. My
+            desire is to create beautiful web interfaces in a creative, dynamic
+            and equal environment.
           </p>
           <div>
             <Link
@@ -27,7 +26,7 @@ const Home = () => {
               smooth={true}
               offset={50}
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group mx-auto mt-[20px] md:mx-0 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
@@ -38,9 +37,9 @@ const Home = () => {
         </div>
         <div>
           <img
-            src={HeroImage}
+            src="https://media1.giphy.com/media/LmNwrBhejkK9EFP504/200.gif"
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto mt-[80px] w-[400px] md:w-[500px]"
           />
         </div>
       </div>

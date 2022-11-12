@@ -1,43 +1,59 @@
 import React from "react";
 import portfolioImage from "../assets/portfolio";
+// Components
+import PortfolioImages from "./PortfolioImages";
 
 const Portfolio = () => {
   const portfolios = [
     {
+      // Monkey Blogging
       id: 1,
-      imgSrc: portfolioImage.installNode,
-      demoHref: "abc.com",
-      srcHref: "xyz.com",
+      imgsSrc: [
+        portfolioImage.monkeyBloggingHomePage,
+        portfolioImage.monkeyBloggingLoginPage,
+      ],
+      demoHref: "https://monkey-blogging-cyan.vercel.app/",
+      srcHref: "https://github.com/trungnguyenhuynhminh46/Monkey_Blogging",
     },
     {
+      // Real time chat app
       id: 2,
-      imgSrc: portfolioImage.usestate,
-      demoHref: "abc.com",
-      srcHref: "xyz.com",
+      imgsSrc: [
+        portfolioImage.realTimeChatApp,
+        portfolioImage.realTimeChatAppLogin,
+      ],
+      demoHref: "https://my-real-time-chat-app.vercel.app/",
+      srcHref:
+        "https://github.com/trungnguyenhuynhminh46/my-real-time-chat-app",
     },
     {
+      // Tiktok clone
       id: 3,
-      imgSrc: portfolioImage.navbar,
-      demoHref: "abc.com",
-      srcHref: "xyz.com",
+      imgsSrc: [portfolioImage.arrayDestruct],
+      // demoHref: "abc.com",
+      srcHref: "https://github.com/trungnguyenhuynhminh46/tiktok-clone",
     },
     {
+      // Music player
       id: 4,
-      imgSrc: portfolioImage.reactParallax,
-      demoHref: "abc.com",
-      srcHref: "xyz.com",
+      imgsSrc: [portfolioImage.musicPlayer],
+      demoHref: "https://musicplayer-xi.vercel.app/",
+      srcHref:
+        "https://github.com/trungnguyenhuynhminh46/Java-script-mini-projects/tree/main/%5BJS%5D%20music_player",
     },
     {
+      // Unimart
       id: 5,
-      imgSrc: portfolioImage.reactSmooth,
-      demoHref: "abc.com",
-      srcHref: "xyz.com",
+      imgsSrc: [portfolioImage.unimartAdmin, portfolioImage.unimart],
+      demoHref: "https://minhtrung.unitopcv.com/",
+      srcHref: "https://github.com/trungnguyenhuynhminh46/unimart",
     },
     {
+      // Real time chat app
       id: 6,
-      imgSrc: portfolioImage.reactWeather,
-      demoHref: "abc.com",
-      srcHref: "xyz.com",
+      imgsSrc: [portfolioImage.mogoTemplate],
+      demoHref: "https://mogo-template-livid.vercel.app/",
+      srcHref: "https://github.com/trungnguyenhuynhminh46/Mogo-Template",
     },
   ];
   return (
@@ -53,14 +69,10 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div className="grid grid-cols-1 gap-8 px-12 sm:grid-cols-2 md:grid-cols-3 pt-8">
-          {portfolios.map(({ id, imgSrc, demoHref, srcHref }) => {
+          {portfolios.map(({ id, imgsSrc, demoHref, srcHref }) => {
             return (
               <div key={id} className="rounded-md shadow-md shadow-gray-600">
-                <img
-                  src={imgSrc}
-                  alt=""
-                  className="rounded-md hover:scale-105 transition duration-300"
-                />
+                <PortfolioImages data={imgsSrc}></PortfolioImages>
                 <div className="flex justify-around">
                   {demoHref && (
                     <a

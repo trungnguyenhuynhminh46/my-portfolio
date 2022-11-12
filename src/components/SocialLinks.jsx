@@ -13,7 +13,7 @@ const SocialLinks = () => {
           <FaLinkedinIn size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/feed/",
+      href: "https://www.linkedin.com/in/trung-nguyen-4895181b4/",
       style: "rounded-tr-md",
     },
     {

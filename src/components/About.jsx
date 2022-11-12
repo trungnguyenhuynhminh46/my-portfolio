@@ -9,24 +9,20 @@ const About = () => {
       <div className="flex flex-col justify-center max-w-screen-lg p-4 mx-auto w-full h-full">
         <div className="pb-8">
           <p className="inline text-4xl font-bold border-b-4 border-gray-500">
-            About
+            About me
           </p>
         </div>
-        <p className="mt-16">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-          quisquam deleniti voluptas voluptates et voluptatibus, sint eligendi,
-          aut ut quod corrupti? Minima nam iste vero provident, accusantium vel
-          dolorum placeat assumenda aut eius veritatis officiis debitis quo
-          cumque facere tempore inventore amet libero repudiandae sequi maiores
-          illo ut! Alias, exercitationem.
+        <p className="mt-8 text-xl">
+          Dedicated and hardworking Frontend Developer. Interested in learning
+          new technology. I'm very eager to use my knowledge to make beautiful
+          web interfaces with great features.
         </p>
-        <p className="mt-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-          quisquam deleniti voluptas voluptates et voluptatibus, sint eligendi,
-          aut ut quod corrupti? Minima nam iste vero provident, accusantium vel
-          dolorum placeat assumenda aut eius veritatis officiis debitis quo
-          cumque facere tempore inventore amet libero repudiandae sequi maiores
-          illo ut! Alias, exercitationem.
+        <p className="mt-4 text-xl">
+          Although I have experience in both Frontend and Backend, I prefer
+          Frontend a little bit.
+        </p>
+        <p className="mt-4 text-xl">
+          Certification: TOEIC Reading & Listening 900
         </p>
       </div>
     </div>
