@@ -11,6 +11,10 @@ const Portfolio = () => {
       imgsSrc: [
         portfolioImage.monkeyBloggingHomePage,
         portfolioImage.monkeyBloggingLoginPage,
+        portfolioImage.monkeyBlogging1,
+        portfolioImage.monkeyBlogging2,
+        portfolioImage.monkeyBlogging3,
+        portfolioImage.monkeyBlogging4,
       ],
       demoHref: "https://monkey-blogging-cyan.vercel.app/",
       srcHref: "https://github.com/trungnguyenhuynhminh46/Monkey_Blogging",
@@ -26,16 +30,16 @@ const Portfolio = () => {
       srcHref:
         "https://github.com/trungnguyenhuynhminh46/my-real-time-chat-app",
     },
-    {
-      // Tiktok clone
-      id: 3,
-      imgsSrc: [portfolioImage.arrayDestruct],
-      // demoHref: "abc.com",
-      srcHref: "https://github.com/trungnguyenhuynhminh46/tiktok-clone",
-    },
+    // {
+    //   // Tiktok clone
+    //   id: 3,
+    //   imgsSrc: [portfolioImage.arrayDestruct],
+    //   // demoHref: "abc.com",
+    //   srcHref: "https://github.com/trungnguyenhuynhminh46/tiktok-clone",
+    // },
     {
       // Music player
-      id: 4,
+      id: 3,
       imgsSrc: [portfolioImage.musicPlayer],
       demoHref: "https://musicplayer-xi.vercel.app/",
       srcHref:
@@ -43,17 +47,33 @@ const Portfolio = () => {
     },
     {
       // Unimart
-      id: 5,
+      id: 4,
       imgsSrc: [portfolioImage.unimartAdmin, portfolioImage.unimart],
       demoHref: "https://minhtrung.unitopcv.com/",
       srcHref: "https://github.com/trungnguyenhuynhminh46/unimart",
     },
     {
-      // Real time chat app
-      id: 6,
-      imgsSrc: [portfolioImage.mogoTemplate],
+      // Mogo Template
+      id: 5,
+      imgsSrc: [
+        portfolioImage.mogoTemplate,
+        portfolioImage.mogoTemplate1,
+        portfolioImage.mogoTemplate2,
+        portfolioImage.mogoTemplate3,
+      ],
       demoHref: "https://mogo-template-livid.vercel.app/",
       srcHref: "https://github.com/trungnguyenhuynhminh46/Mogo-Template",
+    },
+    {
+      // The Kids Template
+      id: 6,
+      imgsSrc: [
+        portfolioImage.TheKids1,
+        portfolioImage.TheKids2,
+        portfolioImage.TheKids3,
+      ],
+      demoHref: "https://kids-playground.vercel.app/",
+      srcHref: "https://github.com/trungnguyenhuynhminh46/Kids-playground",
     },
   ];
   return (

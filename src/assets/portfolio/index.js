@@ -7,6 +7,9 @@ import reactWeather from "./reactWeather.jpg";
 import usestate from "./usestate.jpg";
 // My project from here
 import mogoTemplate from "./Mogo Template.png";
+import mogoTemplate1 from "./Mogo Template1.png";
+import mogoTemplate2 from "./Mogo Template2.png";
+import mogoTemplate3 from "./Mogo Template3.png";
 import musicPlayer from "./Music player.png";
 import psdToHtml1 from "./PSDtoHTML1.png";
 import psdToHtml2 from "./PSDtoHTML2.png";
@@ -18,6 +21,13 @@ import unimartAdmin from "./Unimart-admin.png";
 import unimart from "./Unimart.png";
 import monkeyBloggingHomePage from "./monkeyBloggingHomePage.png";
 import monkeyBloggingLoginPage from "./monkeyBloggingLoginPage.png";
+import monkeyBlogging1 from "./monkeyBlogging1.png";
+import monkeyBlogging2 from "./monkeyBlogging2.png";
+import monkeyBlogging3 from "./monkeyBlogging3.png";
+import monkeyBlogging4 from "./monkeyBlogging4.png";
+import TheKids1 from "./TheKids1.png";
+import TheKids2 from "./TheKids2.png";
+import TheKids3 from "./TheKids3.png";
 
 export default {
   arrayDestruct,
@@ -40,4 +50,14 @@ export default {
   unimart,
   monkeyBloggingHomePage,
   monkeyBloggingLoginPage,
+  monkeyBlogging1,
+  monkeyBlogging2,
+  monkeyBlogging3,
+  monkeyBlogging4,
+  TheKids1,
+  TheKids2,
+  TheKids3,
+  mogoTemplate1,
+  mogoTemplate2,
+  mogoTemplate3,
 };
